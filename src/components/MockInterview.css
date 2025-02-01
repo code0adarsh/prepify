@@ -1,0 +1,157 @@
+/* Overall container styling */
+.interview-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Start Screen */
+  .start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .start-button {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background: #0056b3;
+  }
+  
+  /* Interview Session */
+  .interview-session {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .video-section, .question-section {
+    flex: 1;
+  }
+  
+  .current-question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .answer-input {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .recording-controls {
+    margin-top: 10px;
+  }
+  
+  .record-button {
+    background: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .record-button.recording {
+    background: #28a745;
+  }
+  
+  .record-button:hover {
+    opacity: 0.9;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .next-button {
+    background: #17a2b8;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background: #117a8b;
+  }
+  
+  /* Interview Summary */
+  .interview-summary {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .score-display {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-section {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .feedback-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .feedback-item {
+    background: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .restart-button {
+    background: #ffc107;
+    color: #000;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .restart-button:hover {
+    background: #e0a800;
+  }
+  
